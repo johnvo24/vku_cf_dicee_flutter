@@ -8,8 +8,10 @@ void main() {
       home: Scaffold(
         backgroundColor: Colors.red,
         appBar: AppBar(
-          title: const Text('Dicee'),
-          backgroundColor: Colors.red,
+          title: const Text('Dicee', style: TextStyle(fontWeight: FontWeight.bold),),
+          backgroundColor: const Color.fromARGB(255, 198, 45, 34),
+          centerTitle: true,
+          foregroundColor: Colors.white,
         ),
         body: DicePage(),
       ),
